@@ -20,9 +20,9 @@ function validarNotas() {
   const nota3 = parseFloat(nota3Input.value);
 
   if (
-    nota1 <= 0 || nota1 > 100 ||
-    nota2 <= 0 || nota2 > 100 ||
-    nota3 <= 0 || nota3 > 100
+    nota1 < 0 || nota1 > 100 ||
+    nota2 < 0 || nota2 > 100 ||
+    nota3 < 0 || nota3 > 100
   ) {
     alert("Insira numeros acima de 0 ou abaixo e igual a 100")
     return false;
