@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Previsão do tempo</title>
+  <script src="script.js" defer></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Previsão do tempo</h1>
+    <h2>Digite o nome da sua cidade</h2>
+    <button class='novoCalculo' id="novoCalculo">Novo calculo</button>
+    <button class='calculaMedia' id="calculaMedia">Calcular media</button>
+    <div class="containerInput">
+      <p class="notaText">Primeira nota</p>
+      <input type="number" class="inputNota" id="nota1"></input>
+
+
+      <p class="notaText">Segunda nota</p>
+      <input type="number" class="inputNota" id="nota2"></input>
+
+      <p class="notaText">Terceira nota</p>
+      <input type="number" class="inputNota" id="nota3"></input>
+    </div>
+    <div>
+      <p id="notaMedia"></p>
+      <p id="statusAluno"></p>
+    </div>
+    <div class="containerInput">
+      <input type="number" class="inputNotaRecuperacao" id="notaExameFinal" value='0'></input>
+      <p class="notaFinal" id="notaFinal"> </p>
+      <p class="statusFinal" id="statusFinal"></p>
+    </div>
+
+  </div>
+</body>
+
+</html>
